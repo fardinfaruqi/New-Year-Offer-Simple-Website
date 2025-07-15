@@ -241,3 +241,55 @@
   margin: 16px 0 40px 0;
 }
 
+#sale .sale-container {
+  margin: 100px 140px;
+  font-family: Inter;
+  text-align: center;
+  letter-spacing: 0%;
+}
+
+#sale .sale-container .sale-contents {
+  margin: 0 120px;
+}
+
+#sale .sale-container .sale-contents h6 {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 15px 0 25px 0;
+}
+
+#sale .sale-container .sale-contents h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+}
+
+#sale .sale-container .sale-contents h1 span {
+  color: rgb(255, 0, 0);
+}
+
+#sale .sale-container .sale-contents p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+#sale .sale-container .sale-banner {
+  background: url("../assets/images/Rectangle\ 2.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0 0 0;
+}
+
+#sale .sale-container .sale-banner .img-2 {
+  position: relative;
+  top: -100px;
+}
+
