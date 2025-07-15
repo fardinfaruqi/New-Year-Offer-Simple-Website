@@ -345,7 +345,7 @@
   letter-spacing: 0%;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
-  font-family: Inter; 
+  font-family: Inter;
 }
 
 #subscription .subs-container h1 {
@@ -396,4 +396,47 @@
   font-weight: 600;
   line-height: 24px;
   text-transform: capitalize;
+}
+
+#footer {
+  background: rgb(7, 2, 17);
+  padding: 120px 140px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#footer .contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer .contacts .div-2 p {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+}
+
+#footer hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 50px 0;
+}
+
+#footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#footer .copyrights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
