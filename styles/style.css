@@ -9,3 +9,41 @@
     "wdth" 100;
 } */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#hero {
+  margin: 50px 140px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Merriweather;
+  letter-spacing: 0%;
+  background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../assets/images/Banner\ Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 175px 345px;
+}
+
+#hero h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+#hero h2 {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
