@@ -14,13 +14,14 @@
   margin: 0;
 }
 
-.header {
-  height: 100vh;
-  box-sizing: border-box;
+#header {
+  /* height: 100vh;
+  box-sizing: border-box; */
 }
 
 #hero {
-  margin: 50px 140px;
+  /* box-sizing: border-box; */
+  margin: 50px 140px 100px 140px;
   border-radius: 16px;
   display: flex;
   justify-content: center;
@@ -28,10 +29,11 @@
   text-align: center;
   font-family: Merriweather;
   letter-spacing: 0%;
-  background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../assets/images/Banner\ Image.png");
+  background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../assets/images/Banner\ Image.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 175px 345px;
+  /* height: 80%; */
 }
 
 #hero h1 {
@@ -47,3 +49,36 @@
   font-weight: 900;
   line-height: 95px;
 }
+
+#offer-section {
+  font-family: Inter;
+  text-align: center;
+  letter-spacing: 0%;
+}
+
+#offer-section h1 {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+}
+
+#offer-section h2 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 40px 0 15px 0;
+}
+
+#offer-section h6 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+#offer-section img {
+  margin: 50px 0;
+}
+
